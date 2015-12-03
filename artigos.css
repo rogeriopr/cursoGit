@@ -1,0 +1,22 @@
+article {
+    background-color: #AAA;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+article.red {
+    background-color: #DAA;
+}
+article.red::before {
+    content: "-";
+    font-weight: bold;
+}
+
+article.green {
+    background-color: #ADA;
+}
+article.green::before {
+    content: "+";
+    font-weight: bold;
+}
